@@ -1,15 +1,13 @@
 {
   "name": "ingram14-react-cropper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cropper as React components",
   "main": "dist/react-cropper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./",
     "build": "babel ./src/react-cropper.js --out-file dist/react-cropper.js",
     "clean": "rimraf dist && mkdir dist",
     "prepublish": "npm run clean && npm run build",
-    "prebuild": "npm run lint",
     "build-example": "npm run build && webpack --config webpack.config.js",
     "start": "babel-node server.js"
   },
@@ -30,7 +28,7 @@
     "url": "https://github.com/roadmanfong/react-cropper.git"
   },
   "dependencies": {
-    "ingram14-cropperjs": "*",
+    "ingram14-cropperjs": "^1.4.2",
     "prop-types": "^15.5.8"
   },
   "peerDependencies": {
