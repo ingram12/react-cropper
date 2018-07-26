@@ -1,5 +1,5 @@
 {
-  "name": "react-cropper",
+  "name": "ingram14-react-cropper",
   "version": "1.0.1",
   "description": "Cropper as React components",
   "main": "dist/react-cropper.js",
@@ -30,7 +30,7 @@
     "url": "https://github.com/roadmanfong/react-cropper.git"
   },
   "dependencies": {
-    "cropperjs": "v1.0.0-rc.3",
+    "ingram14-cropperjs": "*",
     "prop-types": "^15.5.8"
   },
   "peerDependencies": {
