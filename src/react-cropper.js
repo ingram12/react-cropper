@@ -301,7 +301,10 @@ ReactCropper.propTypes = {
   // https://github.com/fengyuanchen/cropperjs#options
   // aspectRatio, dragMode, data
   viewMode: PropTypes.oneOf([0, 1, 2, 3]),
-  preview: PropTypes.string,
+  preview: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.object,
+  ]),
   responsive: PropTypes.bool,
   restore: PropTypes.bool,
   checkCrossOrigin: PropTypes.bool,
