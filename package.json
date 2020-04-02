@@ -1,6 +1,6 @@
 {
   "name": "ingram14-react-cropper",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Cropper as React components",
   "main": "dist/react-cropper.js",
   "scripts": {
@@ -11,10 +11,10 @@
     "build-example": "npm run build && webpack --config webpack.config.js",
     "start": "babel-node server.js"
   },
-  "author": "Fong Kuanghuei <waneblade@gmail.com>",
-  "homepage": "http://roadmanfong.github.io/react-cropper/",
+  "author": "ingram14",
+  "homepage": "https://github.com/ingram12/react-cropper",
   "bugs": {
-    "url": "https://github.com/roadmanfong/react-cropper/issues"
+    "url": "https://github.com/ingram12/react-cropper/issues"
   },
   "keywords": [
     "react",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/roadmanfong/react-cropper.git"
+    "url": "https://github.com/ingram12/react-cropper.git"
   },
   "dependencies": {
     "ingram14-cropperjs": "^1.4.2",
